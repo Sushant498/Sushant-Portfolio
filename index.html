@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushant Dubey</title>
+    <link rel="stylesheet" href="temp.css">
+    <script src="https://kit.fontawesome.com/5d30a0a06e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="work.html">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="cv"> <a href="sushant resume.pdf">Download CV</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <div class="header-text-1">
+                    <div>Fresher</div>
+                    <div>Fresher</div>
+                </div>
+                <br>
+                <h1> Hi, I'm <span>SUSHANT</span> <br> DUBEY From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p></p>
+
+
+                    <!----------tab-title----------->
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building web app using(HTML,CSS,JavaScript,ReactJS,NodeJS)</li>
+                            <li><span>App Design</span><br>Designing Android/ios Interface with Figma and Canva</li>
+                            <li><span>JAVA DEVELOPER</span><br>Software and Problem Solving</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>1st Nov 2022 to 31st January 2023</span><br>Internship in Web-Development at GOTO Admission Pvt. Ltd</li>
+                            <li><span>10th July 2023 - 13 August 2023</span><br>Internship in Web-Development at Bharat Intern</li>
+                            <li><span>15th July 2023 - Current</span><br>Internship in Web3 at Shiv Solution Enterprises</li>
+                        </ul>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B-tech</li>
+                            <li><span>2019</span><br>12th CBSE</li>
+                            <li><span>2017</span><br>10th CBSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web development</h2>
+                    <p>I can deliver a best design and web-app with a fantastic FrontEnd. (HTML,CSS,JS,ReactJS,NodeJS)</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>I can deliver a mind blowing app design for both Android/IOS.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uikit"></i>
+                    <h2>JAVA developer</h2>
+                    <p>You are able to get service of optimizing your software by me.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------- portfollio ------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sun-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>ALGORITHM VISUALISER</h3>
+                        <p>Sorting.Visualizer is a web app for visualizing a bunch of different sorting algorithms Like Selection Sort, Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort With the functionality of (Speed Control) and (Array Size Control)...</p>
+                        <a href="https://sushant498.github.io/Sorting_Visualiser/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>This music app is made with the help of HTML,CSS and JS. In the music list some of the songs are give the songs gone to be repeat repeatedly.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Resume Builder Web App</h3>
+                        <p>A resume builder is an online tool that you can use to quickly create a resume. Resume builders allow you to pick a pre-formatted resume template, fill in your contact and background information, and select pre-written work history
+                            bullet points — saving you a lot of time.</p>
+                        <a href="https://sushant498.github.io/Resume_Builder/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>It is made by using Html,CSS,JS</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <h3>Temperature Calculator</h3>
+                        <p>It is used to convert Temperature</p>
+                        <a href="https://sushant498.github.io/Temperature_converter/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-------------- contact ------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> sushantdubey498@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 8409317943</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Sushant498"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/_sushant_dubey?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sushant-dubey-b63328248"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <!-- add link of Downloadable file of my CV -->
+                    <a href="sushant resume.pdf" class="btn btn2">Open / Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                <a id="top" href="" class="btn btn2">Back to top ^ </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright reserved. <i class="fa-regular fa-copyright"></i></p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200";
+        }
+    </script>
+
+</body>
+
+</html>
